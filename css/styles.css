@@ -35,7 +35,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   background-color: #fff;
-  color: #222;
+  color: #a0a0a0;
 }
 
 img {
@@ -47,9 +47,9 @@ img {
 /* CONTAINER */
 .container {
   width: 100%;
-  max-width: 1200px;
-  padding-left: 50px;
-  padding-right: 50px;
+  max-width: 1400px;
+  padding-left: 25px;
+  padding-right: 25px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -58,4 +58,138 @@ img {
 /* MAIN-CONTENT */
 .main-content {
   flex-grow: 1;
+}
+
+/* HEADER */
+
+.site-header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.site-nav {
+  background-color: #fff;
+}
+
+.site-nav-items {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-nav-item-header{
+  display: flex;
+}
+
+.site-nav-item:first-child{
+  margin-right: 25px;
+}
+
+.site-nav-link {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1.4px;
+  color: #000;
+}
+.site-logo {
+}
+
+/* HERO */
+
+
+.site-hero-top {
+  background-image: url(../img/hero-top-bg.jpg);
+  widows: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.site-hero-top-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  padding-top: 190px;
+  padding-bottom: 190px;
+}
+.site-hero-heading {
+  margin: 0;
+  margin-bottom: 12px;
+  font-size: 43px;
+  line-height: 46px;
+  font-weight: 400;
+}
+.site-hero-text {
+  font-size: 15px;
+  line-height: 18px;
+  margin-bottom: 28px;
+}
+.site-hero-top-link {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1.4px;
+  color: #fff;
+}
+
+
+.site-hero-middle{
+  background-color: #fff;
+}
+
+.site-hero-middle-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.site-hero-middle-heading {
+  margin: 0;
+  margin-bottom: 25px;
+  font-size: 43px;
+  line-height: 58px;
+  color: #000;
+}
+
+.site-hero-middle-text {
+  margin: 0;
+  margin-bottom: 25px;
+  letter-spacing: 0.8px;
+}
+
+.site-hero-middle-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+}
+
+
+.site-items {
+}
+.site-item-computers {
+  display: flex;
+  align-items: center;
+}
+.site-items-pc:not(:last-child) {
+  margin-right: 8px;
+}
+.site-items-pc-sourse {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pc-sourse {
+  color: #000;
+}
+.pc-link {
 }
