@@ -1,3 +1,16 @@
+/* FONTS */
+
+@font-face {
+  font-family: "Roboto";
+  src: url("Roboto-Regular.woff2") format("woff2"),
+      url("Roboto-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
 /* GLOBAL */
 html {
   box-sizing: border-box;
@@ -17,7 +30,8 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: "Arial", sans-serif;
+  font-family: "Roboto" "Arial", sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   background-color: #fff;
